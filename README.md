@@ -27,3 +27,7 @@ Usage
     -buffer       Network buffer size (bytes) for pending incoming/outgoing packets.
     -verify       Verify the packets order.
     -verbose      Print debug information.
+
+Download
+===========
+Latest version: [SimpleMulticastAnalyzer.exe](https://docs.google.com/file/d/0B_zYyPNRGrlMcUpITFA4a1hyVm8/edit?usp=sharing).
