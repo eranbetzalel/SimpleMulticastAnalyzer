@@ -60,18 +60,27 @@ namespace Betzalel.SimpleMulticastAnalyzer.Properties {
             }
         }
         
+        internal static System.Drawing.Icon network {
+            get {
+                object obj = ResourceManager.GetObject("network", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         /// <summary>
-        ///   Looks up a localized string similar to Copies one or more files to another location.
+        ///   Looks up a localized string similar to This applicaiton can send/receive multicast packets and analayze the network results in real time.
         ///
-        ///COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B]
-        ///     [+ source [/A | /B] [+ ...]] [destination [/A | /B]]
+        ///Use as sender:
         ///
-        ///  source       Specifies the file or files to be copied.
-        ///  /A           Indicates an ASCII text file.
-        ///  /B           Indicates a binary file.
-        ///  /D           Allow the destination file to be created decrypted
-        ///  destination  Specifies the directory and/or filename for the new file(s).
-        ///  /V           Verifies that new files are  [rest of string was truncated]&quot;;.
+        ///	SimpleMulticastAnalyzer.exe -sender -dest-ip=X -dest-port=X [-src-ip=X] [-src-port=X] [-size=X] [-rate=X] [-buffer=X] [-verify] [-verbose]
+        ///
+        ///Use as receiver:
+        ///
+        ///	SimpleMulticastAnalyzer.exe -receiver -dest-ip=X -dest-port=X [-size=X] [-rate=X] [-buffer=X] [-verify] [-verbose]
+        ///
+        ///-h            Shows the usage screen.
+        ///-sender       Set as a sender network node.
+        ///-receiver     Set as a rec [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Usage {
             get {

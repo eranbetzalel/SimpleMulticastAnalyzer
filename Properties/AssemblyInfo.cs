@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Simple Multicast Analyzer")]
-[assembly: AssemblyDescription("This applicaiton can send/receive multicast packets and analayze the network results in real time.")]
+[assembly: AssemblyDescription("This applicaiton can send/receive multicast packets and analayze their status in real time.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Simple Multicast Analyzer")]
