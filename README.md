@@ -30,7 +30,7 @@ Usage
 
 Known issues
 ==============
- * PGM transport does not work - will be fixed in next release.
+ * PGM transport does not work properly - it will be fixed in the next release.
 
 Download
 ===========
