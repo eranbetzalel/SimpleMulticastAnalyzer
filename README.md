@@ -28,6 +28,10 @@ Usage
     -verify       Verify the packets order.
     -verbose      Print debug information.
 
+Known issues
+==============
+ * PGM transport does not work - will be fixed in next release.
+
 Download
 ===========
 Latest version: [SimpleMulticastAnalyzer.exe](https://docs.google.com/file/d/0B_zYyPNRGrlMcExTdEIydEpmLWM/edit?usp=sharing).
